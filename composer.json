@@ -5,12 +5,12 @@
         "OSL-3.0"
     ],
     "type": "magento2-module",
-    "version": "0.1.0",
+    "version": "0.0.0.1",
     "authors": [
         {
-            "name": "Alexandr Gavrik",
-            "email": "alexandr.gavrik@mail.ru",
-            "homepage": "https://github.com/AlexandrGavrik/",
+            "name": "Haversant",
+            "email": "santej-@mail.ru",
+            "homepage": "https://github.com/Haversant/",
             "role": "Developer"
         }
     ],
