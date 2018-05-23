@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="My_Mod::mod_head" title="Mod" module="My_Mod" sortOrder="8" resource="My_Mod::mod_head" />
+        <add id="My_Mod::task" title="Tasks" module="My_Mod" sortOrder="10" parent="My_Mod::mod_head" action="mod/task" resource="My_Mod::task" />
+    </menu>
+</config>

@@ -1,0 +1,23 @@
+{
+    "name": "my/mod",
+    "description": "N/A",
+    "license": [
+        "OSL-3.0"
+    ],
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Alexandr Gavrik",
+            "email": "alexandr.gavrik@mail.ru",
+            "homepage": "https://github.com/AlexandrGavrik/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "My\\Mod\\": ""
+        }
+    }
+}

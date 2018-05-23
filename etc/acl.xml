@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <!--<resource id="Magento_Backend::content">-->
+                    <resource id="My_Mod::mod_head" title="Mod" sortOrder="100" >
+                        <resource id="My_Mod::task" title="Tasks" sortOrder="10">
+                            <resource id="My_Mod::task_save" title="Save Task" sortOrder="10" />
+                            <resource id="My_Mod::task_delete" title="Delete Task" sortOrder="20" />
+                        </resource>
+                    </resource>
+                <!--</resource>-->
+            </resource>
+        </resources>
+    </acl>
+</config>
