@@ -5,7 +5,7 @@
         "OSL-3.0"
     ],
     "type": "magento2-module",
-    "minimum-stability": "dev",
+    "minimum-stability": "0.0.1",
     "authors": [
         {
             "name": "Haversant",
