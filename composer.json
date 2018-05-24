@@ -4,8 +4,20 @@
     "license": [
         "OSL-3.0"
     ],
+    "require": {
+        "magento/project-community-edition": "*"
+    },
     "type": "magento2-module",
-    "minimum-stability": "0.0.1",
+    "version": "0.1.0",
+    "minimum-stability": "dev",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "My/Mod/"
+            ]
+        ]
+    },
     "authors": [
         {
             "name": "Haversant",
